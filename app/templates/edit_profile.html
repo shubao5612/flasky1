@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block title %}修改资料 {%endblock%}
+{% block page_content %}
+<div class="page-header">
+<h1>修改资料</h1>
+
+</div>
+<div class="col-md-8">
+    {{wtf.quick_form(form)}}
+</div>
+<a href="{{url_for('auth.reset_email_request')}}">重置邮箱</a>
+<a href="{{url_for('auth.change_password')}}">修改密码</a>
+{%endblock %}

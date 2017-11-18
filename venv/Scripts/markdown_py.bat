@@ -1,0 +1,1 @@
+@"c:\wechat-admin\venv\scripts\python.exe" "c:\wechat-admin\venv\Scripts\markdown_py" %*

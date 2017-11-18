@@ -1,0 +1,2 @@
+亲爱的用户：{{user.username}},请确认你的邮件：
+{{url_for('auth.confirm',token=token,_external=True)}}

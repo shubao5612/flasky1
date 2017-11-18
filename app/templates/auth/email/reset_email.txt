@@ -1,0 +1,4 @@
+亲爱的用户：{{user.username}},点击网址修改密码：
+{{url_for('auth.reset_email',token=token,_external=True)}}
+
+登陆ip为{{ip}}
